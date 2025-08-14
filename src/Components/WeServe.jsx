@@ -4,7 +4,7 @@ import { customization, experience, gallery, tourguide, tourimages, weather } fr
 const WeServe = () => {
     return (
         <section>
-            <div className='lg:flex lg:items-center justify-between'>
+            <div className='lg:flex md:flex lg:items-center justify-between'>
                 <div>
                     <h1 className='text-[#EE6E6E] lg:text-3xl text-2xl' style={{ fontFamily: "'Island Moments', cursive" }}>What we serve</h1>
                     <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl'>We offer our best <br /> services</h1>

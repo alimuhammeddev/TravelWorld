@@ -4,6 +4,7 @@ import { distance, location, people, travel, world } from '../assets'
 import WeServe from '../Components/WeServe'
 import Testimonial from '../Components/Testimonial'
 import CTA from '../Components/CTA'
+import Footer from '../Footer'
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
 
       <div className="max-w-7xl mx-auto justify-center lg:p-[8] p-5">
         <div className='mt-28'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 items-center'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-5 items-center'>
             <div>
               <div className='flex items-center gap-'>
                 <h1 className='bg-[#FAA935] text-[#0B2727] w-fit p-1 px-2 rounded-full font-medium lg:text-3xl text-xl' style={{ fontFamily: "'Island Moments', cursive" }}>Know Before You Go</h1>
@@ -27,7 +28,7 @@ const Home = () => {
               <img src={travel} alt="" />
             </div>
           </div>
-          <div className='lg:flex  items-center grid lg:grid-cols-3 grid-cols-2 lg:gap-40 gap-5 lg:mt-0 mt-5 rounded-full w-fit lg:p-5 lg:shadow-md'>
+          <div className='lg:flex md:flex items-center grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 lg:gap-40 gap-5 lg:mt-0 mt-5 rounded-full w-fit lg:p-5 lg:shadow-md'>
             <div className='flex items-center gap-2'>
               <img src={location} alt="" />
               <div>
@@ -63,6 +64,10 @@ const Home = () => {
 
       <div className='lg:mt-10 mt-5'>
         <CTA  />
+      </div>
+
+      <div className="max-w-7xl mx-auto justify-center lg:p-0 p-5 lg:mt-10 mt-5">
+        <Footer />
       </div>
     </section>
   )
