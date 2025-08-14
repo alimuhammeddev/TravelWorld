@@ -3,6 +3,7 @@ import Header from '../Header'
 import { distance, location, people, travel, world } from '../assets'
 import WeServe from '../Components/WeServe'
 import Testimonial from '../Components/Testimonial'
+import CTA from '../Components/CTA'
 
 const Home = () => {
   return (
@@ -58,6 +59,10 @@ const Home = () => {
         <div className='lg:mt-20 mt-10'>
           <Testimonial />
         </div>
+      </div>
+
+      <div className='lg:mt-10 mt-5'>
+        <CTA  />
       </div>
     </section>
   )

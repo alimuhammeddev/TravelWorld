@@ -9,7 +9,7 @@ const Testimonial = () => {
                 <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl lg:mt-3 mt-2'>What our customers say about us</h1>
             </div>
 
-            <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 lg:mt-10 mt-5'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 lg:mt-5 mt-3'>
                 <div className='border-2 lg:border-none lg:p-0 border-[#FAA935] p-5 rounded-xl'>
                     <h1 className='text-gray-400 lg:text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias placeat suscipt earum debitits recusandae voluptate illum expedita corrupti aliquid doloribus delectus?</h1>
                     <div className='flex items-center gap-5 mt-5'>
