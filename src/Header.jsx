@@ -17,12 +17,10 @@ const Header = () => {
     <section className="fixed top-0 left-0 right-0 bg-white shadow-sm w-full z-50 p-2">
       <div className="container mx-auto flex justify-between items-center px-4 py-3 max-w-7xl">
 
-        {/* Left: Logo */}
         <div className="text-2xl font-bold text-blue-600">
           <img src={logo} alt="" className="w-36" />
         </div>
 
-        {/* Right: Links (Large Screen) */}
         <nav className="hidden md:flex space-x-6 items-center">
           {links.map((link, idx) =>
             link.isButton ? (
@@ -45,7 +43,6 @@ const Header = () => {
           )}
         </nav>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden text-gray-700"
           onClick={() => setIsOpen(!isOpen)}
@@ -53,8 +50,7 @@ const Header = () => {
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
-
-      {/* Mobile Menu */}
+ 
       {isOpen && (
         <div className="md:hidden bg-white border-t shadow-md">
           <nav className="flex flex-col space-y-2 px-4 py-3">

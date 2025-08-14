@@ -9,6 +9,7 @@ import tourguide from './tourguide.jpg';
 import weather from './weather.jpg';
 import tourimages from './tourimages.jpg';
 import experience from './experience.jpg';
+import gallery from './gallery.jpg';
 
 export {
     logo,
@@ -22,4 +23,5 @@ export {
     weather,
     tourimages,
     experience,
+    gallery,
 }

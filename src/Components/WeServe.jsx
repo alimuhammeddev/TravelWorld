@@ -1,5 +1,5 @@
 import React from 'react'
-import { customization, experience, tourguide, tourimages, weather } from '../assets'
+import { customization, experience, gallery, tourguide, tourimages, weather } from '../assets'
 
 const WeServe = () => {
     return (
@@ -31,7 +31,7 @@ const WeServe = () => {
             <div className='lg:mt-28 mt-12'>
                 <div>
                     <h1 className='bg-[#FAA935] text-[#0B2727] w-fit p-1 px-2 rounded-full font-medium lg:text-3xl text-xl lg:mx-auto' style={{ fontFamily: "'Island Moments', cursive" }}>Explore</h1>
-                    <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl lg:text-center lg:mt-2'>Our featured tours</h1>
+                    <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl lg:text-center lg:mt-3 mt-2'>Our featured tours</h1>
                 </div>
                 <img src={tourimages} alt="" className='flex justify-center mx-auto lg:mt-5 mt-3' />
             </div>
@@ -60,6 +60,14 @@ const WeServe = () => {
                     <div className='flex justify-end'>
                         <img src={experience} alt="" />
                     </div>
+                </div>
+
+                <div className='lg:mt-28 mt-12'>
+                    <div>
+                        <h1 className='bg-[#FAA935] text-[#0B2727] w-fit p-1 px-2 rounded-full font-medium lg:text-3xl text-xl lg:mx-auto' style={{ fontFamily: "'Island Moments', cursive" }}>Gallery</h1>
+                        <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl lg:text-center lg:mt-3 mt-2'>Visit our customers tour gallery</h1>
+                    </div>
+                    <img src={gallery} alt="" className='flex justify-center mx-auto lg:mt-5 mt-3' />
                 </div>
             </div>
         </section>
