@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Header'
 import { distance, location, people, travel, world } from '../assets'
 import WeServe from '../Components/WeServe'
+import Testimonial from '../Components/Testimonial'
 
 const Home = () => {
   return (
@@ -52,6 +53,10 @@ const Home = () => {
 
         <div className='lg:mt-28 mt-7'>
           <WeServe />
+        </div>
+
+        <div className='lg:mt-28 mt-10'>
+          <Testimonial />
         </div>
       </div>
     </section>

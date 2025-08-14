@@ -62,7 +62,7 @@ const WeServe = () => {
                     </div>
                 </div>
 
-                <div className='lg:mt-28 mt-12'>
+                <div className='lg:mt-28 mt-10'>
                     <div>
                         <h1 className='bg-[#FAA935] text-[#0B2727] w-fit p-1 px-2 rounded-full font-medium lg:text-3xl text-xl lg:mx-auto' style={{ fontFamily: "'Island Moments', cursive" }}>Gallery</h1>
                         <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl lg:text-center lg:mt-3 mt-2'>Visit our customers tour gallery</h1>
