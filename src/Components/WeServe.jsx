@@ -9,7 +9,7 @@ const WeServe = () => {
                     <h1 className='text-[#EE6E6E] lg:text-3xl text-2xl' style={{ fontFamily: "'Island Moments', cursive" }}>What we serve</h1>
                     <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl'>We offer our best <br /> services</h1>
                 </div>
-                <div className='flex lg:flex-row flex-col lg:gap-10 gap-5 mt-10'>
+                <div className='flex lg:flex-row md:flex-row flex-col lg:gap-10 gap-5 mt-10'>
                     <div className='shadow-sm w-fit p-7 rounded-xl border-r-2 border-b-2 border-transparent hover:border-r-[#FAA935] hover:border-b-[#FAA935] transition-all duration-300 cursor-pointer'>
                         <img src={weather} alt="" />
                         <h1 className='text-[#0B2727] font-medium lg:text-xl text-lg mt-5'>Calculate Weather</h1>
@@ -37,7 +37,7 @@ const WeServe = () => {
             </div>
 
             <div className='lg:mt-28 mt-12'>
-                <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
+                <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5'>
                     <div>
                         <h1 className='bg-[#FAA935] text-[#0B2727] w-fit p-1 px-2 rounded-full font-medium lg:text-3xl text-xl' style={{ fontFamily: "'Island Moments', cursive" }}>Experience</h1>
                         <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl lg:mt-3 mt-2'>With our all experience we will serve you</h1>
