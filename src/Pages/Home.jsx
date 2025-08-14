@@ -51,11 +51,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='lg:mt-28 mt-7'>
+        <div className='lg:mt-20 mt-7'>
           <WeServe />
         </div>
 
-        <div className='lg:mt-28 mt-10'>
+        <div className='lg:mt-20 mt-10'>
           <Testimonial />
         </div>
       </div>
