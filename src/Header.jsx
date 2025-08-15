@@ -6,9 +6,9 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { name: "Home", href: "#" },
+    { name: "Home", href: "/" },
     { name: "About", href: "#" },
-    { name: "Tours", href: "#" },
+    { name: "Tours", href: "/tours" },
     { name: "Login", href: "#" },
     { name: "Register", href: "#", isButton: true },
   ];

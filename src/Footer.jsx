@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1'>
         <div className='space-y-2'>
           <img src={logo} alt="" className="w-36"/>
-          <h1 className='mt-2 text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, enim.</h1>
+          <h1 className='mt-2 text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br className='lg:block hidden'/> Commodi, enim.</h1>
           <div className='flex items-center gap-5'>
             <Youtube className='text-[#ffffff] bg-[#FAA935] rounded-full p-1 mt-2' size={30} />
             <Twitter className='text-[#ffffff] bg-[#FAA935] rounded-full p-1 mt-2' size={30} />

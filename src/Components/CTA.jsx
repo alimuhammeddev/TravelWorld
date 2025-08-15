@@ -20,7 +20,7 @@ const CTA = () => {
 
                                 <button
                                     type="submit"
-                                    className="absolute right-1 top-1 bottom-1 flex items-center justify-center gap-2 rounded-md bg-[#FAA935] px-4 text-white text-sm font-medium transition focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
+                                    className="absolute right-1 top-1 bottom-1 flex items-center justify-center gap-2 rounded-md bg-[#FAA935] hover:bg-[#e6992d] px-4 text-white text-sm font-medium transition focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
                                 >
                                     Subscribe
                                 </button>
