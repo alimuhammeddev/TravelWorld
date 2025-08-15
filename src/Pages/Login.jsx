@@ -4,6 +4,7 @@ import { house1, woman } from '../assets'
 import { FcGoogle } from "react-icons/fc"
 import { FaFacebook, FaApple } from "react-icons/fa"
 import Footer from '../Footer'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -14,9 +15,9 @@ const Login = () => {
 
       <div className="max-w-7xl mx-auto justify-center lg:p-[8] p-5 mt-16">
         <div className="flex justify-between flex-col lg:flex-row gap-10">
-          <img src={woman} alt="" />
+          <img src={woman} alt="" className='lg:block hidden'/>
 
-          <div className="mx-auto w-full max-w-md lg:mt-20">
+          <div className="mx-auto w-full max-w-md lg:mt-20 mt-10">
             <h1 className="text-[#FAA935] lg:text-4xl text-xl font-semibold text-center">Welcome</h1>
             <p className="text-gray-400 lg:text-lg text-center mb-6">Login with Email</p>
 
@@ -25,7 +26,7 @@ const Login = () => {
                 <input
                   type="email"
                   placeholder="Enter your email or Username"
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#FAA935]"
+                  className="w-full border border-[#FAA935] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#FAA935]"
                 />
               </div>
 
@@ -33,7 +34,7 @@ const Login = () => {
                 <input
                   type="password"
                   placeholder="Enter your password"
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#FAA935]"
+                  className="w-full border border-[#FAA935] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#FAA935]"
                 />
               </div>
 
@@ -63,11 +64,11 @@ const Login = () => {
               </button>
             </div>
 
-            <div className='mx-auto text-center lg:mt-12'>
-                <h1>Dont have an account? <span className='text-[#FAA935]'>Register Now</span></h1>
+            <div className='mx-auto text-center lg:mt-1 mt-5'>
+                <h1>Dont have an account? <Link to='/register' className='text-[#FAA935]'>Register Now</Link></h1>
             </div>
 
-            <div className='mt-7'>
+            <div className='lg:mt-20 mt-10'>
                 <img src={house1} alt="" />
             </div>
           </div>
