@@ -11,7 +11,7 @@ const Header = () => {
     { name: "About", url: "/about" },
     { name: "Tours", url: "/tours" },
     { name: "Login", url: "/login" },
-    { name: "Register", url: "#", isButton: true },
+    { name: "Register", url: "/register", isButton: true },
   ];
 
   return (

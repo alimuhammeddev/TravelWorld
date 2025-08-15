@@ -6,7 +6,7 @@ import { FaFacebook, FaApple } from "react-icons/fa"
 import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 
-const Login = () => {
+const Register = () => {
     return (
         <section>
             <div>
@@ -18,10 +18,14 @@ const Login = () => {
                     <img src={woman} alt="" className='lg:block hidden' />
 
                     <div className="mx-auto w-full max-w-md lg:mt-20 mt-10">
-                        <h1 className="text-[#FAA935] lg:text-4xl text-xl font-semibold text-center">Welcome</h1>
-                        <p className="text-gray-400 lg:text-lg text-center mb-6">Login with Email</p>
+                        <h1 className="text-[#FAA935] lg:text-4xl text-xl font-semibold text-center">Create An Account</h1>
+                        <p className="text-gray-400 lg:text-lg text-center mb-6">By creating an account, you agree to our <span className="text-[#FAA935]">Privacy policy</span> and <span className="text-[#FAA935]" >Terms of use.</span></p>
 
                         <form className="space-y-4">
+                            <div className='flex items-center gap-2'>
+                                <input type="text" placeholder='First Name' className='w-full border border-[#FAA935] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#FAA935]' />
+                                <input type="text" placeholder='Last Name' className='w-full border border-[#FAA935] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#FAA935]' />
+                            </div>
                             <div>
                                 <input
                                     type="email"
@@ -38,11 +42,15 @@ const Login = () => {
                                 />
                             </div>
 
+                            <div>
+                                <input type="text" placeholder='Mobile Number' className='w-full border border-[#FAA935] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#FAA935]' />
+                            </div>
+
                             <button
                                 type="submit"
                                 className="w-full bg-[#FAA935] text-white py-3 rounded-lg font-semibold hover:bg-[#e69c2f] transition"
                             >
-                                Login
+                                Creat Account
                             </button>
                         </form>
 
@@ -65,7 +73,7 @@ const Login = () => {
                         </div>
 
                         <div className='mx-auto text-center lg:mt-1 mt-5'>
-                            <h1>Dont have an account? <Link to='/register' className='text-[#FAA935]'>Register Now</Link></h1>
+                            <h1>ALready have an account? <Link to='/login' className='text-[#FAA935]'>Login</Link></h1>
                         </div>
 
                         <div className='lg:mt-20 mt-10'>
@@ -82,4 +90,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Register
