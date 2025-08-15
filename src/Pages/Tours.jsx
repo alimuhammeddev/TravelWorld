@@ -58,7 +58,7 @@ const Tours = () => {
                             type="submit"
                             className="p-2 rounded-md bg-[#FAA935] hover:bg-[#e6992d] px-4 text-white text-sm font-medium transition focus:ring-3 focus:ring-yellow-400 focus:outline-hidden mt-5 mx-auto justify-center flex"
                         >
-                            View All Tour
+                            View All Tours
                         </button>
                     </div>
                 </div>
