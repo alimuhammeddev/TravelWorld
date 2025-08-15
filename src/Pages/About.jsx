@@ -66,7 +66,7 @@ const About = () => {
                 <CTA />
             </div>
 
-            <div className="max-w-7xl mx-auto justify-center lg:p-0 p-5 lg:mt-10 mt-5">
+            <div className="max-w-7xl mx-auto justify-center lg:p-[8] p-5 lg:mt-10 mt-5">
                 <Footer />
             </div>
         </section>

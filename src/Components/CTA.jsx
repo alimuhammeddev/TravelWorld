@@ -4,7 +4,7 @@ import { maletourist } from '../assets'
 const CTA = () => {
     return (
         <section className='bg-[#CAE5F4]'>
-            <div className="max-w-7xl mx-auto justify-center lg:p-0 p-5">
+            <div className="max-w-7xl mx-auto justify-center lg:p-[8] p-5">
                 <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:items-center'>
                     <div>
                         <h1 className='text-[#0B2727] font-medium lg:text-3xl text-xl lg:mt-3 mt-2'>Subscribe now to get useful traveling information</h1>
