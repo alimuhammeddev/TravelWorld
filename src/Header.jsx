@@ -8,7 +8,7 @@ const Header = () => {
   const links = [
     { name: "Home", href: "/" },
     { name: "About", href: "#" },
-    { name: "Tours", href: "/tours" },
+    { name: "Tours", href: "tours" },
     { name: "Login", href: "#" },
     { name: "Register", href: "#", isButton: true },
   ];
