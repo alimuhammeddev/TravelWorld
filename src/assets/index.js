@@ -15,7 +15,7 @@ import customer2 from './customer2.jpg';
 import customer3 from './customer3.jpg';
 import maletourist from './maletourist.png';
 import tours from './tours.jpg';
-import featuredtours from './featuredTours.png';
+import featuredtours from './featuredtours.png';
 
 export {
     logo,
