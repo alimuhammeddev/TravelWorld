@@ -6,12 +6,12 @@ import Tours from './Pages/Tours'
 
 const App = () => {
   return (
-    <section>
+    <div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tours" element={<Tours />} />
       </Routes>
-    </section>
+    </div>
   )
 }
 
