@@ -1,5 +1,5 @@
 import React from 'react'
-import { distance, featuredtours, location, people, tours } from '../assets'
+import { distance, featuredtours, location, people, tourshero } from '../assets'
 import Header from '../Header'
 import CTA from '../Components/CTA'
 import Footer from '../Footer'
@@ -12,7 +12,7 @@ const Tours = () => {
             </div>
 
             <div className="relative w-full mt-20">
-                <img src={tours} alt="" className="w-full" />
+                <img src={tourshero} alt="" className="w-full" />
                 <div className="absolute inset-0 flex items-center justify-center">
                     <h1 className="text-white lg:text-5xl text-2xl font-semibold drop-shadow-lg">
                         <span className='text-[#FAA935]'>All</span> Tours

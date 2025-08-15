@@ -14,7 +14,7 @@ import customer1 from './customer1.jpg';
 import customer2 from './customer2.jpg';
 import customer3 from './customer3.jpg';
 import maletourist from './maletourist.png';
-import tours from './tours.jpg';
+import tourshero from './tourshero.jpg';
 import featuredtours from './featuredtours.png';
 
 export {
@@ -34,6 +34,6 @@ export {
     customer2,
     customer3,
     maletourist,
-    tours,
+    tourshero,
     featuredtours,
 }
