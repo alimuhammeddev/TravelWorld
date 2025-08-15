@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { Menu, X } from "lucide-react";
 import { logo } from './assets';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "#" },
-    { name: "Tours", href: "tours" },
-    { name: "Login", href: "#" },
-    { name: "Register", href: "#", isButton: true },
+    { name: "Home", url: "/" },
+    { name: "About", url: "#" },
+    { name: "Tours", url: "tours" },
+    { name: "Login", url: "#" },
+    { name: "Register", url: "#", isButton: true },
   ];
 
   return (
@@ -24,21 +25,21 @@ const Header = () => {
         <nav className="hidden md:flex space-x-6 items-center">
           {links.map((link, idx) =>
             link.isButton ? (
-              <a
+              <Link
                 key={idx}
-                href={link.href}
+                to={link.url}
                 className="bg-[#FAA935] text-white px-4 py-1 rounded-full hover:bg-[#e6992d] transition-colors font-medium text-[15px]"
               >
                 {link.name}
-              </a>
+              </Link>
             ) : (
-              <a
+              <Link
                 key={idx}
-                href={link.href}
+                to={link.url}
                 className="text-[#0B2727] hover:text-[#FAA935] transition-colors font-medium text-[15px]"
               >
                 {link.name}
-              </a>
+              </Link>
             )
           )}
         </nav>
@@ -56,21 +57,21 @@ const Header = () => {
           <nav className="flex flex-col space-y-2 px-4 py-3">
             {links.map((link, idx) =>
               link.isButton ? (
-                <a
+                <Link
                   key={idx}
-                  href={link.href}
+                  to={link.url}
                   className="bg-[#FAA935] text-white px-4 py-2 rounded-lg hover:bg-[#e6992d] transition-colors font-medium text-center"
                 >
                   {link.name}
-                </a>
+                </Link>
               ) : (
-                <a
+                <Link
                   key={idx}
-                  href={link.href}
+                  to={link.url}
                   className="text-[#0B2727] hover:text-[#FAA935] transition-colors font-medium"
                 >
                   {link.name}
-                </a>
+                </Link>
               )
             )}
           </nav>
