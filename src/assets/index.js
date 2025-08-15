@@ -16,6 +16,8 @@ import customer3 from './customer3.jpg';
 import maletourist from './maletourist.png';
 import tourshero from './tourshero.jpg';
 import featuredtours from './featuredtours.png';
+import abouthero from './abouthero.jpg';
+import img from './img.jpg';
 
 export {
     logo,
@@ -36,4 +38,6 @@ export {
     maletourist,
     tourshero,
     featuredtours,
+    abouthero,
+    img,
 }

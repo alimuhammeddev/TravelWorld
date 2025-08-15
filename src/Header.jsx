@@ -8,8 +8,8 @@ const Header = () => {
 
   const links = [
     { name: "Home", url: "/" },
-    { name: "About", url: "#" },
-    { name: "Tours", url: "tours" },
+    { name: "About", url: "/about" },
+    { name: "Tours", url: "/tours" },
     { name: "Login", url: "#" },
     { name: "Register", url: "#", isButton: true },
   ];
