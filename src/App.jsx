@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Tours from "./Pages/Tours";
 import ScrollToTop from "./ScrollToTop";
 import About from "./Pages/About";
+import Login from "./Pages/Login";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/tours" element={<Tours />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );

@@ -18,6 +18,8 @@ import tourshero from './tourshero.jpg';
 import featuredtours from './featuredtours.png';
 import abouthero from './abouthero.jpg';
 import img from './img.jpg';
+import woman from './woman.jpg';
+import house1 from './house1.jpg';
 
 export {
     logo,
@@ -40,4 +42,6 @@ export {
     featuredtours,
     abouthero,
     img,
+    woman,
+    house1,
 }
